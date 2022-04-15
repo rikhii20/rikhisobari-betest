@@ -9,7 +9,7 @@ const schema = new Schema({
   accountNumber: {
     type: String,
     required: true,
-    indexes: 1,
+    index: 1,
   },
   password: {
     type: String,
