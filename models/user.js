@@ -9,6 +9,7 @@ const schema = new Schema({
   accountNumber: {
     type: String,
     required: true,
+    indexes: 1,
   },
   password: {
     type: String,
@@ -17,10 +18,12 @@ const schema = new Schema({
   emailAddress: {
     type: String,
     required: true,
+    indexes: 1,
   },
   identityNumber: {
     type: String,
     required: true,
+    indexes: 1,
   },
   createdAt: {
     type: Date,
