@@ -13,7 +13,7 @@ module.exports = {
         userName: Joi.string().min(4).required(),
         accountNumber: Joi.string().required(),
         password: Joi.string().min(5).required(),
-        emailAddress: Joi.string().required(),
+        emailAddress: Joi.string().email().required(),
         identityNumber: Joi.string().required(),
       });
       const { error } = schema.validate({
