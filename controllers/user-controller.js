@@ -75,7 +75,7 @@ module.exports = {
     const { emailAddress } = req.body;
     try {
       const schema = Joi.object({
-        emailAddress: Joi.string(),
+        emailAddress: Joi.string().email(),
       });
       const { error } = schema.validate({
         emailAddress,
