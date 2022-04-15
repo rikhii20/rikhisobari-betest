@@ -5,7 +5,7 @@
 git clone https://github.com/rikhii20/rikhisobari-betest.git
 ```
 ```
-cd /rikhisobari_betest
+cd /rikhisobari-betest
 ```
 ```
 npm i
@@ -17,8 +17,6 @@ npm run dev
 ## ENV
 ```
 MONGO_URI=mongodb+srv://admin:admin@cluster0.06hki.mongodb.net/btpn_db?retryWrites=true&w=majority
-```
-```
 SECRET_TOKEN=katarahasia
 ```
 
