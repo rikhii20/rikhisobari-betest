@@ -18,12 +18,12 @@ const schema = new Schema({
   emailAddress: {
     type: String,
     required: true,
-    indexes: 1,
+    index: 1,
   },
   identityNumber: {
     type: String,
     required: true,
-    indexes: 1,
+    index: 1,
   },
   createdAt: {
     type: Date,
